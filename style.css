@@ -58,11 +58,13 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 16px;
+  margin-bottom: 25px;
 }
 header nav {
   display: flex;
   gap: 20px;
+  color: var(--gray);
 }
 /* main */
 main {
@@ -78,8 +80,20 @@ main {
 }
 .left h1 {
   font-size: 60px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 1;
+}
+.left p {
+  color: var(--gray);
+  font-size: 20px;
+  line-height: 1.5;
+}
+.left button {
+  background: rgb(51, 53, 55);
+  padding: 7px 15px;
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
 }
 .right {
   width: 60%;
@@ -89,6 +103,11 @@ main {
 }
 
 /* footer */
+footer {
+  border-top: 1px solid rgb(161, 157, 157);
+  padding-top: 10px;
+}
+
 footer .primary {
   display: flex;
   justify-content: space-between;
