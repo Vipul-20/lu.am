@@ -20,12 +20,17 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* header */
+/*MARK: header */
 header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
+
+header .luma-icon {
+  height: 20px;
+}
+
 header nav {
   display: flex;
   gap: 20px;
@@ -43,11 +48,17 @@ main {
 .right video {
   width: 100%;
 }
+.luma-logo-lg {
+  height: 50px;
+}
 /* footer */
 footer .primary {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+}
+.luma-logo-sm {
+  height: 25px;
 }
 .secodary {
   margin-bottom: 20px;
